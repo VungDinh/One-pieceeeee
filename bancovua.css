@@ -1,0 +1,49 @@
+/* table {
+    width: 600px;
+    border-collapse: collapse;
+    border-color: red;
+
+}
+tr{
+height: 30px; 
+}
+td{
+    height 30px
+}
+#table-header{
+    background-color: yellow;
+    text-align: center;
+}  */
+table{
+    width: 900px;
+    border-collapse: collapse;
+    border:none;
+}
+tr{
+    height: 100px;
+    /* border-color: black; */
+    border:none;
+}
+th {
+    height: 50px;
+
+}
+td{
+    border-color: black;
+
+}
+tr > th {
+    border: 0;
+    text-align: center;
+}
+tr > td:first-child {
+    border: 0;
+    text-align: center;
+}
+td.td-black {
+    background-color: black;
+}
+#table-header{
+    background-color: black;
+    text-align:center ;
+}
